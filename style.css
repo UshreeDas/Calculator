@@ -9,23 +9,23 @@ body {
 }
 .bg-area{
     position: fixed;
-    left: -50%;
-    right: -50%;
+    left: -0%;
+    right: -00%;
     top: 0;
     bottom: 0;
-    animation:animate 1s ease-in-out infinite alternate;
-    background: linear-gradient(90deg, #b6e9d8 50%, #f0f1c1 -50%);
+    animation:animate 5s ease-in-out infinite alternate;
+    background: linear-gradient(90deg, #bde4d7 50%, #f0f1c1 -1000%);
     opacity: .5;
     z-index: -1;
 }
 
 .layer-2{
     animation-direction: alternate-reverse;
-    animation-duration: 1s;
+    animation-duration: 5s;
 }
 .layer-3{
    
-    animation-duration: 1s;
+    animation-duration: 5s;
 }
 
 @keyframes animate{ 
